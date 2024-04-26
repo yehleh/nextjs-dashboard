@@ -15,11 +15,11 @@ export default async function RevenueChart() {
   const chartHeight = 350;
   // NOTE: comment in this code when you get to this point in the course
 
-  const start = Date.now();
+  // const start = Date.now();
   const revenue = await fetchRevenue();
-  const end = Date.now();
+  // const end = Date.now();
 
-  console.log(`Revenue data fetch time elapse: ${end - start} ms`)
+  // console.log(`Revenue data fetch time elapse: ${end - start} ms`)
 
   const { yAxisLabels, topLabel } = generateYAxis(revenue);
 
